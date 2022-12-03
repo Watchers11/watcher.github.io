@@ -72,7 +72,11 @@
 
 }
 
+body { 
 
+background-color: black; 
+
+} 
 
 
 
@@ -498,10 +502,9 @@ body.active { overflow: hidden; }
 \*-----------------------------------*/
 
 .hero {
-  /* background: url("../images/service-bg.jpg") no-repeat; */
-  background color: black;
+  /* background: url("../images/service-bg.jpg") no-repeat; 
   background-size: cover;
-  background-position: center;
+  background-position: center; */
   min-height: 750px;
   height: 100vh;
   max-height: 1000px;
@@ -533,9 +536,9 @@ body.active { overflow: hidden; }
 \*-----------------------------------*/
 
 .upcoming {
-  background: url("../images/upcoming-bg.png") no-repeat;
+ /* background: url("../images/upcoming-bg.png") no-repeat; 
   background-size: cover;
-  background-position: center;
+  background-position: center; */
   padding-block: var(--section-padding);
 }
 
