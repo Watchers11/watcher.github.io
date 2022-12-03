@@ -506,7 +506,7 @@ body.active { overflow: hidden; }
   max-height: 1000px;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   padding-block: var(--section-padding);
 }
 
