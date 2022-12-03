@@ -504,13 +504,13 @@ body.active { overflow: hidden; }
 .hero {
   /* background: url("../images/service-bg.jpg") no-repeat; 
   background-size: cover;
-  background-position: center; */
+  background-position: center;
   min-height: 750px;
   height: 100vh;
   max-height: 1000px;
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: flex-start; */
   padding-block: var(--section-padding);
 }
 
@@ -549,8 +549,8 @@ body.active { overflow: hidden; }
 .filter-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   gap: 10px;
 }
 
