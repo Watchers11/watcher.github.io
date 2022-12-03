@@ -498,7 +498,7 @@ body.active { overflow: hidden; }
 \*-----------------------------------*/
 
 .hero {
-  background: url("../images/hero-bg.jpg") no-repeat;
+  background: url("") no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 750px;
