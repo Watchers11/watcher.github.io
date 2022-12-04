@@ -132,7 +132,7 @@ body.active { overflow: hidden; }
  * #REUSED STYLE
 \*-----------------------------------*/
 
-/*.container { padding-inline: 100%; }
+.container { padding-inline: 100%; }
 
 /**
  * TITLES & SUBTITLES
@@ -277,7 +277,8 @@ body.active { overflow: hidden; }
   position: relative;
   background: var(--gunmetal-1);
   aspect-ratio: 2 / 3;
-  border-radius: 6px;
+  max-width: 200px;
+  border-radius: 4px;
   overflow: hidden;
   margin-bottom: 20px;
   transition: var(--transition-1);
