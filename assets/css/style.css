@@ -132,7 +132,7 @@ body.active { overflow: hidden; }
  * #REUSED STYLE
 \*-----------------------------------*/
 
-.container { padding-inline: 100%; }
+.container { padding-inline: 15px; }
 
 /**
  * TITLES & SUBTITLES
@@ -156,7 +156,7 @@ body.active { overflow: hidden; }
   font-size: var(--fs-11);
   font-weight: var(--fw-500);
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 5px;
   margin-bottom: 10px;
   text-align: center;
 }
