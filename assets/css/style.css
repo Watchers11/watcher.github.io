@@ -263,7 +263,7 @@ body.active { overflow: hidden; }
 
 .movies-list {
   display: grid;
-  gap: 50px;
+  gap: 5px;
 }
 
 .movie-card {
