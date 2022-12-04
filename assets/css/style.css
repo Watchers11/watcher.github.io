@@ -132,7 +132,7 @@ body.active { overflow: hidden; }
  * #REUSED STYLE
 \*-----------------------------------*/
 
-.container { padding-inline: 8px; }
+.container { padding-inline: 8px 15px; }
 
 /**
  * TITLES & SUBTITLES
