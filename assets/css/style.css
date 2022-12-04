@@ -277,7 +277,6 @@ body.active { overflow: hidden; }
   position: relative;
   background: var(--gunmetal-1);
   aspect-ratio: 2 / 3;
-  max-width: 150px;
   border-radius: 6px;
   overflow: hidden;
   margin-bottom: 20px;
