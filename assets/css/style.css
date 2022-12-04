@@ -274,7 +274,7 @@ body.active { overflow: hidden; }
 }
 
 .movie-card .card-banner {
-  max-width: 100px;
+  max-width: 200px;
   position: relative;
   background: var(--gunmetal-1);
   /*aspect-ratio: 2 / 3;*/
