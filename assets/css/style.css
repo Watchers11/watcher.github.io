@@ -338,6 +338,7 @@ body.active { overflow: hidden; }
 
 .movie-card :is(.duration, .rating) {
   display: flex;
+  max_width: 200px
   align-items: center;
   gap: 5px;
   color: var(--gainsboro);
