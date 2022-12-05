@@ -271,7 +271,7 @@ body.active { overflow: hidden; }
   height: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
 }
 
 .movie-card .card-banner {
@@ -305,6 +305,8 @@ body.active { overflow: hidden; }
 .movie-card .title-wrapper {
   display: flex;
   max-width: 200px;
+  position: relative;
+  border-radius: 4px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
