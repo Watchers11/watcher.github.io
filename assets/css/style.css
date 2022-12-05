@@ -306,7 +306,7 @@ body.active { overflow: hidden; }
   display: flex;
   max-width: 200px;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   gap: 20px;
   margin-bottom: 10px;
@@ -339,7 +339,7 @@ body.active { overflow: hidden; }
 
 .movie-card :is(.duration, .rating) {
   display: flex;
-  max_width: 200px
+  max_width: 200px;
   align-items: center;
   gap: 5px;
   color: var(--gainsboro);
