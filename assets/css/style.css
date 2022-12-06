@@ -260,6 +260,8 @@ body.active { overflow: hidden; }
 /**
  * MOVIE CARD
  */
+.main{
+}
 .card {
 
   /* Add shadows to create the "card" effect */
