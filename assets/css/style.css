@@ -270,7 +270,7 @@ body.active { overflow: hidden; }
 
   transition: 0.3s;
   
-  display: inline block;
+  display: inline-block;
 
 }
 
