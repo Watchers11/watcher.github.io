@@ -283,14 +283,15 @@ body.active { overflow: hidden; }
 .container {
 
   padding: 2px 16px;
-  h1 {
+
+}
+h1 {
 
     color: white;
     text-align: center;
 
     }
 
-}
 .movies-list {
   display: grid;
   gap: 1px;
