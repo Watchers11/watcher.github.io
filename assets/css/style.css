@@ -283,6 +283,12 @@ body.active { overflow: hidden; }
 .container {
 
   padding: 2px 16px;
+  h1 {
+
+    color: white;
+    text-align: center;
+
+    }
 
 }
 .movies-list {
