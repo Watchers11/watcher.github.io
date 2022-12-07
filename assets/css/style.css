@@ -271,6 +271,8 @@ body.active { overflow: hidden; }
   transition: 0.3s;
   
   display: inline-block;
+  
+  margin: 40px;
 
 }
 
