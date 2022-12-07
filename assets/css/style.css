@@ -293,6 +293,10 @@ body.active { overflow: hidden; }
   padding: 2px 16px;
 
 }
+.card img {
+  width; 600px;
+  height: 900px;
+}
 
 .movies-list {
   display: grid;
