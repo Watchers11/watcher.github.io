@@ -273,6 +273,8 @@ body.active { overflow: hidden; }
   display: inline-block;
   
   margin: 10px;
+  
+  justify-content: space-around;
 
 }
 
