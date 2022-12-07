@@ -275,6 +275,9 @@ body.active { overflow: hidden; }
   margin: 20px;
   
   justify-content: space-around;
+  
+  width; 600px;
+  height: 900px;
 
 }
 
@@ -292,11 +295,7 @@ body.active { overflow: hidden; }
 
   padding: 2px 16px;
 
-}
-.card img {
-  width; 600px;
-  height: 900px;
-}
+  }
 
 .movies-list {
   display: grid;
