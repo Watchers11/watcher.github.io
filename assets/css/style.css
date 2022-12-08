@@ -15,6 +15,10 @@
 \*-----------------------------------*/
 
 :root {
+  
+  --cardWidth: 180px;
+  --cardHeight: 300px;
+  --cardMargin: 16px;
 
   /**
    * colors
@@ -260,11 +264,7 @@ body.active { overflow: hidden; }
 /**
  * MOVIE CARD
  */
-:root {
-  --cardWidth: 180px;
-  --cardHeight: 300px;
-  --cardMargin: 16px;
-}
+  
 
 html, body {
   height: 100%;
