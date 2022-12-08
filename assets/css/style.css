@@ -270,11 +270,11 @@ body.active { overflow: hidden; }
 
   transition: 0.3s;
   
-  display: flex;
+  display: inline-block;
   
-  margin: 10px;
+  margin: 30px;
   
-  justify-content: center;
+  justify-content: space-evenly;
   
 
 }
