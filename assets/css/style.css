@@ -304,7 +304,7 @@ h1 {
 
   }
 
-.movies-list {
+/* .movies-list {
   display: grid;
   gap: 1px;
 }
@@ -322,7 +322,7 @@ h1 {
   position: relative;
   background: var(--gunmetal-1);
   /*aspect-ratio: 2 / 3;*/
-  border-radius: 4px;
+ /* border-radius: 4px;
   overflow: hidden;
   margin-bottom: 20px;
   transition: var(--transition-1);
@@ -393,7 +393,7 @@ h1 {
   font-size: 13px;
   --ionicon-stroke-width: 50px;
   color: var(--citrine);
-}
+} */
 
 /**
  * CUSTOM SLIDER & SCROLLBAR
