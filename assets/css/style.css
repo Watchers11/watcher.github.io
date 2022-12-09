@@ -1016,7 +1016,7 @@ html, body {
 \*-----------------------------------*/
 
 .movie-detail {
-  background: url("../images/movie-detail-bg.png") no-repeat;
+  /*background: url("../images/cover_images/1_laal_singh_chaddha.jpg") no-repeat; */
   background-size: cover;
   background-position: center;
   padding-top: 160px;
