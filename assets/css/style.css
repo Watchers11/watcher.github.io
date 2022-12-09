@@ -282,7 +282,7 @@ html, body {
 } */
 .main-section {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   /*background: #000000;*/
 }
@@ -294,6 +294,7 @@ html, body {
   /*background: #000000; */
   box-sizing: border-box;
   text-align:center;
+  margin-bottom: 20px;
   
 }
 .card .card-banner {
