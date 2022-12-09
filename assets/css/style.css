@@ -16,9 +16,9 @@
 
 :root {
   
-  --cardWidth: 180px;
-  --cardHeight: 350px;
-  --cardMargin: 16px;
+  --cardWidth: 160px;
+  --cardHeight: 280px;
+  --cardMargin: 5px;
 
   /**
    * colors
@@ -291,17 +291,19 @@ html, body {
   height: var(--cardHeight);
   margin: var(--cardMargin);
   border: 3px solid #E4D00A;
-  border-radius: 0px;
   /*background: #000000; */
   box-sizing: border-box;
   text-align:center;
+  
 }
 .card .card-banner {
-  max-width: 180px;
+  max-width: 120px;
   position: relative;
   background: var(--gunmetal-1);
   overflow: hidden;
-  margin-bottom: 5px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 11%;
   transition: var(--transition-1);
 }
 
@@ -583,7 +585,7 @@ html, body {
   padding-block: var(--section-padding);
 }
 
-.hero-content { margin-top: 60px; }
+.hero-content { margin-top: 20px; }
 
 .hero-subtitle {
   color: var(--citrine);
@@ -592,7 +594,7 @@ html, body {
   margin-bottom: 10px;
 }
 
-.hero-title { margin-bottom: 30px; }
+.hero-title { margin-bottom: 0px; }
 
 .hero-title > strong { color: var(--citrine); }
 
