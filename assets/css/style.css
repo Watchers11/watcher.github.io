@@ -16,8 +16,8 @@
 
 :root {
   
-  --cardWidth: 160px;
-  --cardHeight: 280px;
+  --cardWidth: 200px;
+  --cardHeight: 320px;
   --cardMargin: 5px;
 
   /**
@@ -294,17 +294,18 @@ html, body {
   /*background: #000000; */
   box-sizing: border-box;
   text-align:center;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
   
 }
 .card .card-banner {
-  max-width: 120px;
+  max-width: 150px;
   position: relative;
   background: var(--gunmetal-1);
   overflow: hidden;
   margin-top: 5%;
   margin-bottom: 5%;
-  margin-left: 11%;
+  margin-left: 12%;
+  text-align: center;
   transition: var(--transition-1);
 }
 
@@ -326,6 +327,7 @@ html, body {
   color: var(--white);
   font-size: var(--fs-7);
   transition: var(--transition-1);
+  margin-left: 8%;
 }
 
 
@@ -1136,7 +1138,11 @@ html, body {
 
 .download-btn ion-icon { font-size: 16px; }
 
-
+.rating-logo {
+height: 10px;
+width: 20px;
+vertical-align: middle;
+}
 
 
 
