@@ -1077,7 +1077,7 @@ html, body {
 
 .details-actions {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
   gap: 20px 40px;
   max-width: 460px;
@@ -1094,11 +1094,11 @@ html, body {
   margin-inline: auto;
 }
 
-.details-actions .share span {
+/*.details-actions .share span {
   color: var(--gainsboro);
   font-size: var(--fs-11);
   transition: var(--transition-1);
-}
+}*/
 
 .details-actions .share:is(:hover, :focus) span { color: var(--citrine); }
 
@@ -1130,13 +1130,14 @@ html, body {
   text-transform: uppercase;
   display: flex;
   align-items: center;
+  justify-content: space-around;
   gap: 10px;
   padding: 20px 35px;
   letter-spacing: 5px;
   border-radius: 6px;
 }
 
-.download-btn ion-icon { font-size: 16px; }
+.download-btn ion-icon { font-size: 15px; }
 
 .logo-flex{
   display: flex;
@@ -1678,7 +1679,7 @@ html, body {
   .detail-title { --fs-1: 60px; }
 
   .download-btn {
-    left: auto;
+    left: left;
     right: 15px;
     bottom: 0;
     transform: rotate(0.25turn) translateY(100%);
