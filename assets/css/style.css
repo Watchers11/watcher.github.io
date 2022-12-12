@@ -271,9 +271,8 @@ body.active { overflow: hidden; }
  }
 
  .watcher-title{
-  max-width: fit-content;
-  text-align: center;
-  margin: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 
  }
 
@@ -306,7 +305,7 @@ html, body {
   width: var(--cardWidth);
   height: var(--cardHeight);
   margin: var(--cardMargin);
-  border: 3px solid #E4D00A;
+  border: 2px solid hsl(57, 97%, 45%);
   /*background: #000000; */
   box-sizing: border-box;
   text-align:center;
