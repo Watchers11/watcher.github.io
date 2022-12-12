@@ -266,13 +266,14 @@ body.active { overflow: hidden; }
  * SEARCHBAR
  */
  .search-container{
-  margin: 25px
+  margin-top: 100px
+  
  }
 
  .watcher-title{
   max-width: fit-content;
   text-align: center;
-  margin-top: 100px;
+  margin: 40px;
 
  }
 
