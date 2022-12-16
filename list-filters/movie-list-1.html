@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wactchers - Movies List</title>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="../favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <div class="search-container">
+  <script async src="https://cse.google.com/cse.js?cx=45942758e15f94dd9">
+  </script>
+  <div class="gcse-search"></div>
+</div>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="../index.html" class="logo">
+        <img src="../assets/images/logo.png" alt="WATCHERS logo" width="200" height="50">
+      </a>
+
+      <!--<div class="header-actions">
+
+        <button class="search-btn">
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+
+      </div>-->
+
+      <button class="menu-open-btn" data-menu-open-btn>
+        <ion-icon name="reorder-three"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+          <a href="../index.html" class="logo">
+            <img src="../assets/images/logo.png" alt="WATCHERS logo" width="200" height="50">
+          </a>
+
+          <button class="menu-close-btn" data-menu-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="../index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="../list-filters/movie-list-1.html" class="navbar-link">Movies</a>
+          </li>
+
+          <li>
+            <a href="../list-filters/series-list-1.html" class="navbar-link">Series</a>
+          </li>
+
+
+        <ul class="navbar-social-list">
+
+          <!-- <li>
+            <a href="#" class="navbar-social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li> -->
+
+          <li>
+            <a href="#" class="navbar-social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+      <div class="watcher-title">
+        <h1 style="color:  hsl(57, 97%, 45%); text-align: center;"><strong>Download Movies</strong>
+        </h1>
+
+      </div>
+
+      <!-- 
+        - #HERO
+      -->
+      <!--<section class="hero">
+        <div class="container">
+    
+
+          <div class="hero-content">
+
+            <p style="text-align: center; font-size: xx-large;" class="hero-subtitle">WATCHERS</p>
+
+            <h1 style="text-align: center; margin-bottom: 10px;" class="hero-subtitle">
+              Download <strong>Movies</strong> & Series.
+            </h1>
+            </div>
+
+      </section> -->
+        
+      <!--<form>
+        <i class="fas fa-search"></i>
+      </form>
+      <input type="text" name="" id="search-movie" placeholder="Search Movies And Series"> -->
+    
+
+
+
+      <!-- 
+        - #UPCOMING
+      -->
+        <!-- <h1>Responsive Cards with flexbox flex-wrap</h1> -->
+
+<section class="main-section">
+
+  <div class="card">
+    <a href="../maspages/40_avengers-2.html">
+     <figure class="card-banner">
+       <img src="../assets/images/cover_images/40_avengers_2.jpg" alt="avengers 2 2015 poster">
+     </figure>
+   </a>
+
+   <div class="title-wrapper">
+     <a href="../maspages/40_avengers-2.html">
+       <h3 class="card-title">Avengers 2: Age Of Ultron 2015 Hindi-English 480p</h3>
+     </a>
+   </div>
+ </div>
+
+
+  <div class="card">
+    <a href="../maspages/39_the-avengers-1.html">
+     <figure class="card-banner">
+       <img src="../assets/images/cover_images/39_the_avengers_1.jpg" alt="avengers 1 2012 poster">
+     </figure>
+   </a>
+
+   <div class="title-wrapper">
+     <a href="../maspages/39_the-avengers-1.html">
+       <h3 class="card-title">The Avengers 2012 Dual Audio Hindi-English 480p</h3>
+     </a>
+   </div>
+ </div>
+
+  <div class="card">
+    <a href="../maspages/38_gotg-2.html">
+     <figure class="card-banner">
+       <img src="../assets/images/cover_images/38_gotg_2.jpg" alt="gotg 2 2017 movie poster">
+     </figure>
+   </a>
+
+   <div class="title-wrapper">
+    <a href="../maspages/38_gotg-2.html">
+      <h3 class="card-title">Guardians Of The Galaxy Vol 2 2017 Hindi-English 480p</h3>
+    </a>
+   </div>
+ </div>
+
+
+  <div class="card">
+    <a href="../maspages/37_gotg-1.html">
+    <figure class="card-banner">
+      <img src="../assets/images/cover_images/37_gotg_1.jpg" alt="gotg 2014 movie poster">
+    </figure>
+   </a>
+
+  <div class="title-wrapper">
+    <a href="../maspages/37_gotg-1.html">
+      <h3 class="card-title">Guardians Of The Galaxy Vol 1 2014 Hindi-English 480p</h3>
+    </a>
+  </div>
+ </div>
+
+
+  <div class="card">
+    <a href="../maspages/36_thor-4.html">
+    <figure class="card-banner">
+      <img src="../assets/images/cover_images/36_thor_4.jpg" alt="Thor 4 2022 movie poster">
+    </figure>
+   </a>
+
+  <div class="title-wrapper">
+    <a href="../maspages/36_thor-4.html">
+      <h3 class="card-title">Thor 4: Love And Thunder 2022 Dual Audio Hindi English 480p</h3>
+    </a>
+  </div>
+ </div>
+
+
+  <div class="card">
+    <a href="../maspages/35_thor-3.html">
+    <figure class="card-banner">
+      <img src="../assets/images/cover_images/35_thor_3.jpg" alt="Thor 3 Ragnarok movie poster">
+    </figure>
+   </a>
+
+  <div class="title-wrapper">
+    <a href="../maspages/35_thor-3.html">
+      <h3 class="card-title">Thor 3: Ragnarok 2017 Dual Audio Hindi-English 720p</h3>
+    </a>
+  </div>
+ </div>
+
+  <div class="card">
+    <a href="../maspages/34_thor-2.html">
+    <figure class="card-banner">
+      <img src="../assets/images/cover_images/34_thor_2.jpg" alt="Thor 2 2013 movie poster">
+    </figure>
+   </a>
+
+  <div class="title-wrapper">
+    <a href="../maspages/34_thor-2.html">
+      <h3 class="card-title">Thor 2: The Dark World 2013 Dual Audio Hindi-English 480p</h3>
+    </a>
+  </div>
+ </div>
+
+
+
+  <div class="card">
+    <a href="../maspages/33_thor-1.html">
+    <figure class="card-banner">
+      <img src="../assets/images/cover_images/33_thor_1.jpg" alt="Thor1 poster">
+    </figure>
+   </a>
+
+  <div class="title-wrapper">
+    <a href="../maspages/33_thor-1.html">
+      <h3 class="card-title">Thor 2011 Dual Audio Hindi-English 480p</h3>
+    </a>
+  </div>
+ </div>
+
+
+  <div class="card">
+    <a href="../maspages/32_iron-man-3.html">
+    <figure class="card-banner">
+      <img src="../assets/images/cover_images/32_iron_man_3.jpg" alt="iron man 3 2013 movie poster">
+    </figure>
+   </a>
+
+  <div class="title-wrapper">
+    <a href="../maspages/32_iron-man-3.html">
+      <h3 class="card-title">Iron Man 3 2013 Dual Audio Hindi-English 720p</h3>
+    </a>
+  </div>
+ </div>
+
+
+  <div class="card">
+    <a href="../maspages/31_iron-man-2.html">
+    <figure class="card-banner">
+      <img src="../assets/images/cover_images/31_iron_man_2.jpg" alt="iron man 2 2010 movie poster">
+    </figure>
+   </a>
+
+  <div class="title-wrapper">
+    <a href="../maspages/31_iron-man-2.html">
+      <h3 class="card-title">Iron Man 2 2010 Dual Audio Hindi-English 480p</h3>
+    </a>
+  </div>
+ </div>
+
+
+  <div class="card">
+    <a href="../maspages/30_iron-man-1.html">
+    <figure class="card-banner">
+      <img src="../assets/images/cover_images/30_iron_man_1.jpg" alt="iron man 1 2008 movie poster">
+    </figure>
+   </a>
+
+  <div class="title-wrapper">
+    <a href="../maspages/30_iron-man-1.html">
+      <h3 class="card-title">Iron Man 1 2008 Dual Audio Hindi-English 480p</h3>
+    </a>
+  </div>
+ </div>
+
+
+
+  <div class="card">
+    <a href="../maspages/29_resident-evil-6-final-chapter.html">
+    <figure class="card-banner">
+      <img src="../assets/images/cover_images/29_resident_evil_6.jpg" alt="resident evil 6 2016 movie poster">
+    </figure>
+   </a>
+
+  <div class="title-wrapper">
+    <a href="../maspages/29_resident-evil-6-final-chapter.html">
+      <h3 class="card-title">Resident Evil 6: The Final Chapter 2016 Hindi-English 480p Bluray</h3>
+    </a>
+  </div>
+ </div>
+
+
+  <div class="card">
+    <a href="../maspages/28_resident-evil-5-retribution.html">
+    <figure class="card-banner">
+      <img src="../assets/images/cover_images/28_resident_evil_5.jpg" alt="resident evil 5 retribution 2012 movie poster">
+    </figure>
+   </a>
+
+  <div class="title-wrapper">
+    <a href="../maspages/28_resident-evil-5-retribution.html">
+      <h3 class="card-title">Resident Evil 5: Retribution 2012 Hindi-English 480p Bluray</h3>
+    </a>
+  </div>
+ </div>
+
+
+  <div class="card">
+    <a href="../maspages/27_resident-evil-4-afterlife.html">
+    <figure class="card-banner">
+      <img src="../assets/images/cover_images/27_resident_evil_4.jpg" alt="resident evil 4 2010 movie poster">
+    </figure>
+   </a>
+
+  <div class="title-wrapper">
+    <a href="../maspages/27_resident-evil-4-afterlife.html">
+      <h3 class="card-title">Resident Evil 4: Afterlife 2010 Dual Audio Hindi-English 480p Bluray</h3>
+    </a>
+  </div>
+ </div>
+
+
+  <div class="card">
+    <a href="../maspages/26_resident-evil-3-extinction.html">
+    <figure class="card-banner">
+      <img src="../assets/images/cover_images/26_resident_evil_3.jpg" alt="resident evil 3 2007 movie poster">
+    </figure>
+   </a>
+
+  <div class="title-wrapper">
+    <a href="../maspages/26_resident-evil-3-extinction.html">
+      <h3 class="card-title">Resident Evil 3: Extinction 2007 Dual Audio Hindi-English 480p Bluray</h3>
+    </a>
+  </div>
+ </div>
+
+
+  <div class="card">
+    <a href="../maspages/25_resident-evil-2-apocolypse.html">
+    <figure class="card-banner">
+      <img src="../assets/images/cover_images/25_resident_evil_2.jpg" alt="resident evil 2 2004 movie poster">
+    </figure>
+   </a>
+
+  <div class="title-wrapper">
+    <a href="../maspages/25_resident-evil-2-apocolypse.html">
+      <h3 class="card-title">Resident Evil 2: Apocalypse 2004 Hindi-English 480p Bluray</h3>
+    </a>
+  </div>
+ </div>
+    
+
+  <div class="card">
+     <a href="../maspages/24_resident-evil-1.html">
+     <figure class="card-banner">
+       <img src="../assets/images/cover_images/24_resident_evil_1.jpg" alt="resident evil 1 movie poster">
+     </figure>
+    </a>
+
+   <div class="title-wrapper">
+     <a href="../maspages/24_resident-evil-1.html">
+       <h3 class="card-title">Resident Evil 1 2002 Dual Audio Hindi-English 480p Bluray</h3>
+     </a>
+   </div>
+  </div>
+
+  
+  <div class="card"><a href="../maspages/22_the-witcher-nightmare.html">
+    <figure class="card-banner">
+      <img src="../assets/images/cover_images/22_the_witcher_nightmare.jpg" alt="the witcher nightmare of the wolf movie poster">
+    </figure>
+  </a>
+
+  <div class="title-wrapper">
+    <a href="../maspages/22_the-witcher-nightmare.html">
+      <h3 class="card-title">The Withcher: Nightmare Of The Wolf 2021 Movie Hindi-English</h3>
+    </a>
+  </div>
+  </div>
+
+
+  <div class="card">
+    <a href="./maspages/18_bramhastra-part-one.html">
+     <figure class="card-banner">
+       <img src="./assets/images/cover_images/18_bramhastra_part_one_shiva.jpg" alt="Bramhastra 2022 movie poster">
+     </figure>
+   </a>
+
+   <div class="title-wrapper">
+    <a href="./maspages/18_bramhastra-part-one.html">
+      <h3 class="card-title">Bramhastra Part One - Shiva 2022 Hindi 480p</h3>
+    </a>
+   </div>
+ </div>
+
+
+  <div class="card">
+    <a href="./maspages/17_top-gun-maverick.html">
+    <figure class="card-banner">
+      <img src="./assets/images/cover_images/17_top_gun_maverick.jpg" alt="Top Gun Maverick movie poster">
+    </figure>
+   </a>
+
+  <div class="title-wrapper">
+    <a href="./maspages/17_top-gun-maverick.html">
+      <h3 class="card-title">Top Gun Maverick 2022 Hindi-English 480p</h3>
+    </a>
+  </div>
+ </div>
+
+
+  <div class="card">
+    <a href="./maspages/16_terminator-3.html">
+    <figure class="card-banner">
+      <img src="./assets/images/cover_images/16_terminator_3.jpg" alt="Terminator 3 2003 movie poster">
+    </figure>
+   </a>
+
+  <div class="title-wrapper">
+    <a href="./maspages/16_terminator-3.html">
+      <h3 class="card-title">Terminator 3-Rise Of The Machines 2003 Hindi-English 480p</h3>
+    </a>
+  </div>
+ </div>
+
+
+  <div class="card">
+    <a href="./maspages/15_terminator-2.html">
+    <figure class="card-banner">
+      <img src="./assets/images/cover_images/15_terminator_2.jpg" alt="Terminator 2 1991 movie poster">
+    </figure>
+   </a>
+
+  <div class="title-wrapper">
+    <a href="./maspages/15_terminator-2.html">
+      <h3 class="card-title">Terminator 2 Judgement Day 1991 Hindi-English 480p</h3>
+    </a>
+  </div>
+ </div>
+
+  <div class="card">
+    <a href="./maspages/14_terminator-1.html">
+    <figure class="card-banner">
+      <img src="./assets/images/cover_images/14_terminator_1.jpg" alt="Terminator 1 1984 movie poster">
+    </figure>
+   </a>
+
+  <div class="title-wrapper">
+    <a href="./maspages/14_terminator-1.html">
+      <h3 class="card-title">Terminator 1 1984 Dual Audio Hindi-English 480p</h3>
+    </a>
+  </div>
+ </div>
+
+ <div class="card">
+  <a href="./maspages/12_bullet-train-2022.html">
+  <figure class="card-banner">
+    <img src="./assets/images/cover_images/12_bullet_train.jpg" alt="Bullrt Train 2022 movie poster">
+  </figure>
+ </a>
+
+<div class="title-wrapper">
+  <a href="./maspages/12_bullet-train-2022.html">
+    <h3 class="card-title">Bullet Train 2022 Movie Hindi-English Dual Audio 480p</h3>
+  </a>
+</div>
+</div>
+
+
+<div class="card">
+  <a href="./maspages/11_Prey-2022.html">
+  <figure class="card-banner">
+    <img src="./assets/images/cover_images/11_prey_2022.jpg" alt="Prey 2022 movie poster">
+  </figure>
+ </a>
+
+<div class="title-wrapper">
+  <a href="./maspages/11_Prey-2022.html">
+    <h3 class="card-title">Prey 2022 Movie Hindi-English Dual Audio 480p</h3>
+  </a>
+</div>
+</div>
+
+
+<div class="card">
+  <a href="./maspages/10_enola-holmes2-2022.html">
+  <figure class="card-banner">
+    <img src="./assets/images/cover_images/10_enola_holmes.jpg" alt="Enola Holmes 2 2022 movie poster">
+  </figure>
+ </a>
+
+<div class="title-wrapper">
+  <a href="./maspages/10_enola-holmes2-2022.html">
+    <h3 class="card-title">Enola Holmes 2 2022 480p Hindi-English</h3>
+  </a>
+</div>
+</div>
+
+
+
+<div class="card">
+  <a href="./maspages/9_gargi-2022.html">
+  <figure class="card-banner">
+    <img src="./assets/images/cover_images/9_gargi.jpg" alt="Gargi 2022 movie poster">
+  </figure>
+ </a>
+
+<div class="title-wrapper">
+  <a href="./maspages/9_gargi-2022.html">
+    <h3 class="card-title">Gargi 2022 480p Hindi-Tamil Dual Audio</h3>
+  </a>
+</div>
+</div>
+
+
+<div class="card">
+  <a href="./maspages/8_rorschach-2022.html">
+  <figure class="card-banner">
+    <img src="./assets/images/cover_images/8_rorschach.jpg" alt="Rorschach 2022 movie poster">
+  </figure>
+ </a>
+
+<div class="title-wrapper">
+  <a href="./maspages/8_rorschach-2022.html">
+    <h3 class="card-title">Rorschach 2022 480p Hindi-Malayalam Dual Audio</h3>
+  </a>
+</div>
+</div>
+
+
+<div class="card">
+  <a href="./maspages/7_monica-o-my-darling-2022.html">
+  <figure class="card-banner">
+    <img src="./assets/images/cover_images/7_monica_o_my_darling.jpg" alt="monica, o my darling 2022 movie poster">
+  </figure>
+ </a>
+
+<div class="title-wrapper">
+  <a href="./maspages/7_monica-o-my-darling-2022.html">
+    <h3 class="card-title">Monica, O My Darling 2022 480p Hindi</h3>
+  </a>
+</div>
+</div>
+
+
+<div class="card">
+  <a href="./maspages/6_the-ghost-2022.html">
+  <figure class="card-banner">
+    <img src="./assets/images/cover_images/6_ghost_2022.jpg" alt="the ghost 2022 movie poster">
+  </figure>
+ </a>
+
+<div class="title-wrapper">
+  <a href="./maspages/6_the-ghost-2022.html">
+    <h3 class="card-title">The Ghost 2022 480p Movie Hindi</h3>
+  </a>
+</div>
+</div>
+
+
+<div class="card">
+  <a href="./maspages/5_Don-2022.html">
+  <figure class="card-banner">
+    <img src="./assets/images/cover_images/5_don_2022.jpg" alt="Don 2022 movie poster">
+  </figure>
+ </a>
+
+<div class="title-wrapper">
+  <a href="./maspages/5_Don-2022.html">
+    <h3 class="card-title">Don 2022 480p Hindi-Tamil Dual Audio</h3>
+  </a>
+</div>
+</div>
+  
+
+<div class="card">
+   <a href="./maspages/4_777-charlie.html">
+   <figure class="card-banner">
+     <img src="./assets/images/cover_images/4_777_charlie.jpg" alt="777 charlie movie poster">
+   </figure>
+  </a>
+
+ <div class="title-wrapper">
+   <a href="./maspages/4_777-charlie.html">
+     <h3 class="card-title">777 Charlie 2022 480p Webrip Hindi</h3>
+   </a>
+ </div>
+</div>
+
+
+<div class="card"><a href="./maspages/3_karthikeya-2.html">
+  <figure class="card-banner">
+    <img src="./assets/images/cover_images/3_karthikeya_2.jpg" alt="Karthikeya 2 movie poster">
+  </figure>
+</a>
+
+<div class="title-wrapper">
+  <a href="./maspages/3_karthikeya-2.html">
+    <h3 class="card-title">Karthikeya 2 2022 480p Dual Audio Hindi-Telugu</h3>
+  </a>
+</div>
+</div>
+
+
+<div class="card"><a href="./maspages/2_bimbisara.html">
+  <figure class="card-banner">
+    <img src="./assets/images/cover_images/2_bimbisara.jpg" alt="bimbisara movie poster">
+  </figure>
+</a>
+
+<div class="title-wrapper">
+  <a href="./maspages/2_bimbisara.html">
+    <h3 class="card-title">Bimbisara 2022 720p WEB-DL Dual Audio Hindi-Telugu</h3>
+  </a>
+</div>
+</div>
+
+
+<div class="card">
+  <a href="./maspages/1_laal-singh-chaddha.html">
+  <figure class="card-banner">
+    <img src="./assets/images/cover_images/1_laal_singh_chaddha.jpg" alt="laal singh chaddha movie poster">
+  </figure>
+</a>
+
+<div class="title-wrapper">
+  <a href="./maspages/1_laal-singh-chaddha.html">
+    <h3 class="card-title">Laal Singh Chaddha 2022 480p WEB-DL Hindi</h3>
+  </a>
+</div>
+</div>
+
+
+
+
+
+  <!--
+  Pagination
+-->
+<div class="pagination">
+  <a href="#">&laquo;</a>
+  <a href="../list-filters/movie-list-1.html">1</a>
+  <!--<a class="active" href="./2_index.html">2</a>-->
+ <!-- <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6</a>-->
+  <a href="#">&raquo;</a>
+</div>
+
+</section>
+        
+      
+    </article>
+  </main>
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand-wrapper">
+
+          <a href="../index.html" class="logo">
+            <img src="../assets/images/logo.png" alt="WATCHERS logo" width="200" height="50">
+          </a>
+
+          <ul class="footer-list">
+
+            <li>
+              <a href="../index.html" class="footer-link">Home</a>
+            </li>
+
+            <li>
+              <a href="../list-filters/movie-list-1.html" class="footer-link">Movies</a>
+            </li>
+
+            <li>
+              <a href="../list-filters/series-list-1.html" class="footer-link">Series</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="quicklink-wrapper">
+
+          <ul class="quicklink-list">
+
+            <li>
+              <a href="#" class="quicklink-link">Faq</a>
+            </li>
+
+            <li>
+              <a href="#" class="quicklink-link">Help center</a>
+            </li>
+
+            <li>
+              <a href="#" class="quicklink-link">Terms of use</a>
+            </li>
+
+            <li>
+              <a href="#" class="quicklink-link">Privacy</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+
+  </footer> -->
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="../assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
+
