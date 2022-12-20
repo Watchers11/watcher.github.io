@@ -1736,7 +1736,9 @@ html, body {
 
 
 .freefind-search{
-  display: flex;
+  display: inline-block;
+  margin: 10px;
   justify-content: space-between;
   align-items: center;
+  border-radius: 2px
 }
