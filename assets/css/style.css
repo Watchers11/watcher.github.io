@@ -1733,3 +1733,10 @@ html, body {
 
 /* Add a grey background color on mouse-over */
 .pagination a:hover:not(.active) {background-color: black;} 
+
+
+.freefind-search{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
