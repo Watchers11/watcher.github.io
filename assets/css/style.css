@@ -1709,8 +1709,8 @@ html, body {
     padding-top: 56.25%; /* 9 / 16 * 100 */ 
   } 
   .o-video > iframe {
-    width: 800px;
-    height: 500px;
+    max-width: 800px;
+    max-height: 500px;
     position: absolute;
     top: 0;
     left: 0;
