@@ -16,7 +16,7 @@
 
 :root {
   
-  --cardWidth: 100px;
+  --cardWidth: 200px;
   --cardHeight: 320px;
   --cardMargin: 5px;
 
@@ -302,7 +302,7 @@ html, body {
   /*background: #000000;*/
 }
 .card {
-  width: var(--cardWidth);
+  width: 160px;
   height: var(--cardHeight);
   margin: var(--cardMargin);
   border: 2px solid hsl(57, 97%, 45%);
