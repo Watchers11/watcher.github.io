@@ -302,9 +302,7 @@ html, body {
   /*background: #000000;*/
 }
 .card {
-  display: flexbox;
-  align-items: center;
-  max-width: 400px;
+  width : 170px;
   height: var(--cardHeight);
   margin: var(--cardMargin);
   border: 2px solid hsl(57, 97%, 45%);
