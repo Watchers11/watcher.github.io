@@ -296,7 +296,7 @@ html, body {
   font-size: 24px;
 } */
 .main-section {
-  display: flex;
+  display:flexflexflexflexflexflex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   /*background: #000000;*/
