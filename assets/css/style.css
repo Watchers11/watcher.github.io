@@ -265,16 +265,16 @@ body.active { overflow: hidden; }
 /**
  * SEARCHBAR
  */
- .search-container{
+/* .search-container{
   margin-top: 100px
   
- }
+ } */
 
  .watcher-title{
   margin-top: 100px;
   margin-bottom: 40px;
 
- }
+ } 
 
 /**
  * MOVIE CARD
@@ -296,7 +296,7 @@ html, body {
   font-size: 24px;
 } */
 .main-section {
-  display:flexflexflexflexflexflex;
+  display:flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   /*background: #000000;*/
